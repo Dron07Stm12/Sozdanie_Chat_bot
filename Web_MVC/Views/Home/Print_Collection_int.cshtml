@@ -1,0 +1,17 @@
+﻿@model List<int>
+
+@{
+    ViewData["Title"] = "Print_Collection_int";
+}
+
+<h1>Print_Collection_int</h1>
+
+<div class="card">
+
+    @foreach (var item in Model)
+    {
+        <p class="card_text"> @item </p>
+    }
+
+
+</div>

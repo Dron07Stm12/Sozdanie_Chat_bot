@@ -1,0 +1,13 @@
+﻿@using Web_MVC.Controllers
+@model User
+@{
+    ViewData["Title"] = "Print_Value";
+ }
+
+
+<div class = "col-md-10">
+    
+    <h1>Print_Value</h1>
+    <p class="text-center"> age: @Model.Age, name: @Model.Name </p> <!-- или переопределить  ToString() в классе User-->
+
+ </div>

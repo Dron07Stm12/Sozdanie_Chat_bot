@@ -1,0 +1,17 @@
+﻿@using Web_MVC.Controllers
+@using System.Collections.Generic;
+
+@model List<User>
+@{
+    ViewData["Title"] = "Print_Collection";
+}
+
+<h1>Print_Collection</h1>
+<div>
+    @foreach (var item in Model)
+   {
+       <p> @item.Name, @item.Age    </p>
+   }
+
+
+</div>
